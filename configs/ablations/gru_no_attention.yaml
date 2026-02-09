@@ -1,0 +1,7 @@
+# Ablation: GRU without attention (uses last hidden state)
+_base: "../gru.yaml"
+model:
+  name: "gru_attn"
+  dropout: 0.2
+  use_attention: false
+  pooling: "last"

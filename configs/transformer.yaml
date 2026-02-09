@@ -1,0 +1,10 @@
+# Transformer encoder for time-series
+_base: "configs/base.yaml"
+
+model:
+  name: "transformer"
+  d_model: 128
+  nhead: 4
+  layers: 3
+  dim_ff: 256
+  dropout: 0.2

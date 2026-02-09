@@ -1,0 +1,9 @@
+# LSTM + temporal attention
+_base: "configs/base.yaml"
+
+model:
+  name: "lstm_attn"
+  hidden: 128
+  num_layers: 1
+  bidirectional: false
+  dropout: 0.2

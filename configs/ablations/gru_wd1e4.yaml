@@ -1,0 +1,4 @@
+# Ablation: weight_decay=1e-4 (default)
+_base: "../gru.yaml"
+train:
+  weight_decay: 1e-4

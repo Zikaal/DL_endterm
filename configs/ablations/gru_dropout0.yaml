@@ -1,0 +1,6 @@
+# Ablation: dropout=0 (GRU + attention)
+_base: "../gru.yaml"
+model:
+  name: "gru_attn"
+  dropout: 0.0
+  use_attention: true
